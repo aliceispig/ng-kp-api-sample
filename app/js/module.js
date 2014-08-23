@@ -1,3 +1,3 @@
 (function () {
-    angular.module('kpApp', ['ui.router']);
+    angular.module('kpApp', ['ui.router', 'blockUI']);
 })();

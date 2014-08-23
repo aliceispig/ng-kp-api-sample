@@ -1,12 +1,11 @@
-柯文哲野生官網 API 使用範例 - AngularJS 版本
+柯文哲野生官網 API 使用範例 - AngularJS SPA 版本
 ============================================
 
-作者: Will 保哥
+本專案基於[Will保哥](https://www.facebook.com/will.fans)撰寫的[柯文哲野生官網 API 使用範例 - AngularJS 版本](https://github.com/doggy8088/ng-kp-api-sample)，修改為支援SPA的版本。
 
-專案簡介
----------
+本專案參考[JohnPapa的Angular Style Guide](https://github.com/johnpapa/angularjs-styleguide)作為撰寫風格的主要依據，並根據使用習慣作了一些小調整。
 
-由於 [柯文哲野生官網](http://unlimited.kptaipei.tw/) 所提供的 API 使用範例主要以 jQuery 為主，我將其修改為以 AngularJS 版本的 API 呼叫範例，供 AngularJS 初學者研習之用。
+內容持續調整中，歡迎一起討論！
 
 使用方式
 ---------
@@ -15,9 +14,9 @@
 	
 	![image](https://cloud.githubusercontent.com/assets/88981/3997760/feae7da2-2941-11e4-9131-1e8d0341a1c8.png)
 
-與我聯絡
+TODO
 ---------
+* 單元測試 - Karma
+* 整合測試 - Protractor
+* 使用TypeScript重寫
 
-* 粉絲頁: [Will 保哥的技術交流中心](https://www.facebook.com/will.fans)
-* 部落格: [The Will Will Web](http://blog.miniasp.com/)
-* 噗　浪: [★★★ Will 保哥的噗浪 ★★★](http://www.plurk.com/willh/invite)
