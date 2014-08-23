@@ -1,0 +1,16 @@
+{
+  "name": "ng-kp-api-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kirkchen/ng-kp-api-sample",
+  "authors": [
+    "Kirk Chen <rwk0119@yahoo.com.tw>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

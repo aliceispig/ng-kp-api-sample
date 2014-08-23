@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="col-md-4">
+        <h2> 文章類別目錄</h2>
+        <ul class="categories">
+            <li class='category' ng-repeat="category in categoryCtrl.categories" ui-sref="article.category({categoryId: category.id})">
+                {{ category.name }}
+                <ul class='articles' ng-if="categoryCtrl.isCurrentCategory(category)"
+                    ng-repeat="article in categoryCtrl.articles">
+                    <li class='article' ui-sref="article.category.detail({categoryId: category.id, articleId: article.id})" ng-click="$event.stopPropagation()">
+                        {{ article.title }}
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div ui-view></div>
+</div>

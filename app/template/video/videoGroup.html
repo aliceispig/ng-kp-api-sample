@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="col-md-4">
+        <h2> 播放清單列表</h2>
+        <ul class="videoGroups">
+            <li class='playlist' ng-repeat="videoGroup in videoGroupCtrl.videoGroups"
+                ui-sref="video.group({videoGroupId: videoGroup.id})">
+                {{videoGroup.title}}
+                <ul class='videos' ng-if="videoGroupCtrl.isCurrentGroup(videoGroup)">
+                    <li class='video' ng-repeat="video in videoGroupCtrl.videos"
+                        ui-sref="video.group.detail({videoGroupId: videoGroup.id, videoId: video.id})"
+                        ng-click="$event.stopPropagation()">
+                        {{video.title}}
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div ui-view></div>
+</div>
